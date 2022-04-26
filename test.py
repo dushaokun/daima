@@ -6,4 +6,4 @@ def print_dir():
     else:
         for i in os.listdir(filepath):    #获取目录中的文件及子目录列表
             print(os.path.join(filepath,i)) #把路径组合起来
-print(print_dir())
+    print(print_dir())
