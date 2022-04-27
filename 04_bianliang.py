@@ -1,4 +1,6 @@
 # 取整数
+from sqlalchemy import true
+
 a = 9
 b = 2
 c = a // b
@@ -77,4 +79,22 @@ bool true 1 false 0
 7. dict 字典
 8. None 不知道是哪种类型
 '''
+# 个人信息
+name = '小明'
+age = 18
+gender = '男'
+height = 1.75
+isStudent = True
+print(name, age, gender, height, isStudent)
+# 变量赋值的时候，等号右边是什么数据类型，变量就是什么数据类型
+i = 10
+f = 10.5
+h = True
+print(i + f)
+print(i - f)
+print(i + h)
+print(i - h)
+# 数字型变量直接用算术运算符计算
+# 布尔类型 true 代表 1 false 代表0
+
 

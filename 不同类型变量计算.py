@@ -1,0 +1,10 @@
+a = False
+b = True
+c = "你好"
+d = 3.14
+e = 5
+print(a + b)
+#print(c + d)
+print(c * e)
+#print(c * d)
+print(d * a)
